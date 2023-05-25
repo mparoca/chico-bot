@@ -81,7 +81,7 @@ app.layout = dbc.Container(
         html.H1([html.I(className="far fa-sad-cry ml-0")," Chico-Bot ", html.I(className="fas fa-smile ml-0")]),
         html.H5("I am a question-answering Chico Bot fine-tuned on thousands of lines of Topo hangout conversations. Try me!"),
         html.H5("Learn more below:"),
-        dbc.Button(html.Span(["", html.I(className="fa-solid fa music ml-2")]), href="https://en.wikipedia.org/wiki/Metallica", color="warning"),
+        dbc.Button(html.Span(["", html.I(className="fas-fa-music ml-2")]), href="https://en.wikipedia.org/wiki/Metallica", color="warning"),
         dbc.Button(html.Span(["", html.I(className="fab fa-github ml-2")]), href="https://github.com/mparoca/chico-bot", color="secondary"),
         dbc.Button(html.Span(["", html.I(className="fab fa-linkedin ml-2")]), href="https://www.linkedin.com/in/maria-paula-aroca-42a0a5166/"),
         html.Hr(),
