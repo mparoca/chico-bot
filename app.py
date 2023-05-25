@@ -4,13 +4,9 @@ from dash import html
 from dash.dependencies import Input, Output, State
 import dash_bootstrap_components as dbc
 import random
-#from get_answer import get_answer
-
-#from app import server
-#from app import app
 
 #Theme
-#https://bootswatch.com/vapor/ 
+#https://bootswatch.com/sketchy/
 
 #Icons
 # https://fontawesome.com/v5.15/icons?d=gallery&p=2
