@@ -1,2 +1,2 @@
-<a href="url"><img src="/assets/emoji.png" align="left" height="80" width="80" ></a>
+<a href="url"><img src="/assets/emoji.png" align="left" height="60" width="60" ></a>
 # chico-bot
