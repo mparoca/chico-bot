@@ -117,7 +117,7 @@ def run_chatbot(n_clicks, n_submit, user_input, chat_history):
         return chat_history, ""
     
     try:
-        responses = ["I know", "Metallica was formed in 1981 in Los Angeles", "1993 is when music went down the drain", "I'm sorry", "I understand", "I'm so sorry", "I'm so sorry and I understand", "I know and I'm sorry", "I understand and I'm sorry", "I know, I understand and I'm sorry"]
+        responses = ["I know", "Metallica's song Enter Sandman was inspired by a nightmare experienced by drummer Lars Ulrich.","During the recording of Metallica's album Master of Puppets, the band's bus crashed in Sweden", "1993 is when music went down the drain", "I'm sorry", "I understand",  "I know and I'm sorry", "I know, I understand and I'm sorry"]
         response = random.choice(responses)
         return chat_history+ ">Q: " + user_input + ">" + response, ""
     except:
